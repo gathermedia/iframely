@@ -15,4 +15,4 @@ RUN DEPS="libkrb5-dev" \
     apt-get autoremove && \
     apt-get clean
 
-ENTRYPOINT ["/iframely/docker/entrypoint.sh"]
+CMD "/iframely/docker/entrypoint.sh"
