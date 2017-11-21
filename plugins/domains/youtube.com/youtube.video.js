@@ -120,6 +120,7 @@ module.exports = {
             views: youtube_video_gdata.viewCount,
             media: 'player', 
             site: "YouTube",
+            video_id: youtube_video_gdata.id,
             canonical: "https://www.youtube.com/watch?v=" + youtube_video_gdata.id,
             author_url: "https://www.youtube.com/" + (youtube_video_gdata.channelId  ? "channel/" + youtube_video_gdata.channelId : "user/" + youtube_video_gdata.uploader)
         };

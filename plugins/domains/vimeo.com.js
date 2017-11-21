@@ -17,7 +17,8 @@ module.exports = {
 
         return {
             canonical: "https://vimeo.com/" + oembed.video_id,
-            date: oembed.upload_date
+            date: oembed.upload_date,
+            video_id: oembed.video_id
         };
     },
 
